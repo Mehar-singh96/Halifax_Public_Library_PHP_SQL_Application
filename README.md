@@ -19,3 +19,11 @@ A PHP web application was created to allow the users to access the database.
 The library employees can now conveniently record the books/magazines issued, access articles and fetch the customer details. 
 The payroll team can fetch the employee details and their daily logged work hours for easy payroll.
 A document was created to explain and highlight the work done in an elaborative manner and to provide a proof of traceability and reference.
+
+To run the application the following steps need to be followed in a sequential manner:
+
+1. Execute data2Mongo which will automaticlly run exisiting tables.sql and new_tables.sql
+2. Execute mongo2sql which will run java and generate insert scripts and will automatically load in SQL db.
+3. To run the php file render the main.php.
+	
+
